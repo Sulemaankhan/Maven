@@ -1,13 +1,10 @@
 package com.catcher;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import com.service.AddService;
+
+public class App {
+	public static void main(String[] args) {
+		AddService add = new AddService();
+		add.logicCals();
+	}
 }
